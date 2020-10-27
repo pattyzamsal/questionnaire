@@ -9,6 +9,7 @@ target 'questionnaire' do
 
   pod 'DropDown'
   pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
 
   target 'questionnaireTests' do
     inherit! :search_paths
