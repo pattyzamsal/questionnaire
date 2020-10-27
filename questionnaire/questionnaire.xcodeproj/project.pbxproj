@@ -17,6 +17,7 @@
 		275209B2254689CB0042093E /* questionnaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275209B1254689CB0042093E /* questionnaireTests.swift */; };
 		275209BD254689CB0042093E /* questionnaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275209BC254689CB0042093E /* questionnaireUITests.swift */; };
 		275209E12547CBF60042093E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 275209E02547CBF60042093E /* GoogleService-Info.plist */; };
+		275209FC2547CED30042093E /* QuestionnarieMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 275209FB2547CED30042093E /* QuestionnarieMock.json */; };
 		E7BC471065CE0494B60B0C87 /* Pods_questionnaireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8324D0125C3F7EF06416EB28 /* Pods_questionnaireTests.framework */; };
 		F97E67BD9FB35B231DDBFBB7 /* Pods_questionnaire_questionnaireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995F3C616E1AF6D8CE68F183 /* Pods_questionnaire_questionnaireUITests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		275209BC254689CB0042093E /* questionnaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionnaireUITests.swift; sourceTree = "<group>"; };
 		275209BE254689CB0042093E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275209E02547CBF60042093E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		275209FB2547CED30042093E /* QuestionnarieMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuestionnarieMock.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		2C5BBDD87B7ED81955BDD862 /* Pods-questionnaire-questionnaireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-questionnaire-questionnaireUITests.release.xcconfig"; path = "Target Support Files/Pods-questionnaire-questionnaireUITests/Pods-questionnaire-questionnaireUITests.release.xcconfig"; sourceTree = "<group>"; };
 		393E47634A491ACA0D0FBDB5 /* Pods-questionnaire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-questionnaire.release.xcconfig"; path = "Target Support Files/Pods-questionnaire/Pods-questionnaire.release.xcconfig"; sourceTree = "<group>"; };
 		3ABA908E744B32CF9BF6EA61 /* Pods-questionnaireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-questionnaireTests.debug.xcconfig"; path = "Target Support Files/Pods-questionnaireTests/Pods-questionnaireTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				275209A3254689CB0042093E /* Assets.xcassets */,
 				275209A5254689CB0042093E /* LaunchScreen.storyboard */,
 				275209A8254689CB0042093E /* Info.plist */,
+				275209FB2547CED30042093E /* QuestionnarieMock.json */,
 			);
 			path = questionnaire;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				275209A7254689CB0042093E /* LaunchScreen.storyboard in Resources */,
+				275209FC2547CED30042093E /* QuestionnarieMock.json in Resources */,
 				275209E12547CBF60042093E /* GoogleService-Info.plist in Resources */,
 				275209A4254689CB0042093E /* Assets.xcassets in Resources */,
 				275209A2254689CA0042093E /* Main.storyboard in Resources */,

@@ -1,0 +1,43 @@
+{
+  "questions":[
+     {
+       "title":"What's your name?",
+       "typeOfAnswer":"String"
+     },
+     {
+       "title":"When did you born?",
+       "typeOfAnswer":"Date"
+     },
+     {
+       "title":"What's your gender?",
+       "typeOfAnswer":"SingleChoice",
+       "options":[
+           "Male",
+           "Female"
+       ]
+     },
+     {
+       "title":"What's your marital status?",
+       "typeOfAnswer":"Dropdown",
+       "options":[
+           "Single",
+           "Married",
+           "Divorced",
+           "Widow"
+       ]
+     },
+     {
+       "title":"What do you usually do on weekends?",
+       "typeOfAnswer":"MultipleChoice",
+       "options":[
+           "Sleep",
+           "Practice some sport",
+           "Visit your family",
+           "Travel somewhere",
+           "Watch Netflix",
+           "Shopping"
+       ]
+     }
+  ]
+}
+
